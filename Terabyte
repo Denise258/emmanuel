@@ -1,0 +1,18 @@
+#include <iostream>
+
+/* run this program using the console pauser or add your own getch, system("pause") or input loop */
+
+int main() {
+setlocale (LC_ALL, "Portuguese");
+float vt, vg, vm, vb;
+cout <<" Digite o numero em Terabyte:"<<endl;
+cin>>vt;
+vg = vt*1024;
+vm = vt*1024;
+vb = vt*1024;
+cout<<"Entre com um valor em Gibabytes é:"<< vg<<endl;
+cout<<"Entre com um valor em Megabytes é:"<< vm<<endl;
+cout<<"Entre com um valor em Bytes é:"<< vb<<endl;
+	
+	return 0;
+}
