@@ -1,2 +1,0 @@
-# emmanuel
-Laboratório de Programação
