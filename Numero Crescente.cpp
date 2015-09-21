@@ -18,10 +18,27 @@ int main(){
 		else
 			if (x<y && x<z){
 				if (y<z){
-					cout<<"Os números na ordem crescente : "<<x<<y<<z<<endl;
+					cout<<"Os números na ordem crescente : "<<x <<y <<z<<endl;
 				}
 				else {
-					cout<<"Os números na ordem crescente : "<<x<<z<<y<<endl;
+					cout<<"Os números na ordem crescente : "<<x <<z<< y<<endl;
 				}
 			}
-			if (y<x && y<z)			
+			if (y<x && y<z){
+				if(x<z){
+						cout<<"Os números na ordem crescente: "<<y <<x <<z<<endl;
+				}
+				else{
+					cout<<"Os números na ordem crescente: "<<y <<x <<z<<endl;
+				}
+			}
+			if (z<x && z>y){
+				if (x<y){
+						cout<<"Os números na ordem crescente: "<<z <<x <<y<<endl;	
+				}
+				else{
+						cout<<"Os números na ordem crescente: "<<z <<x <<y <<endl;	
+				}
+			}
+			return 0;
+		}
