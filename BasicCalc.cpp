@@ -15,34 +15,36 @@ int main(){
 	if (op<0 || op>4){
 		cout<<"Opção Invalida"<<endl;
 		cout<<"O programa será finalizado"<<endl;
-	}
-	else{
+		}
+		else{
 		cout<<"Digite o primeiro numero"<<endl;
 		cin>>x;
 		cout<<"Digite o segundo numero "<<endl;
 		cin>>y;
-		if (op == 1){
-			
+		}
+		switch (op){
+			case 1:
+			op == 1;		
 			resultado = x+y;
 			cout<<"A soma dos numeros é "<<resultado<<endl;
-		}
-		else{
-			if (op == 2){
-				resultado = x- y;
-				cout<<"A subtração dos numeros é"<<resultado<<endl;	
-		}
-		else{
-			if (op == 3){
-				resultado = x*y;
-				cout<<"A multiplicaão dos numeros é"<<resultado<<endl;
-			}
-			if (op == 4){
-				resultado = x/y;
-				cout<<"A Divisão dos numeros é"<<resultado<<endl;	
-			}
-		}
+		break;
+		case 2:
+			op == 2;
+			resultado = x- y;
+			cout<<"A subtração dos numeros é"<<resultado<<endl;	
+		break;
+		case 3:
+			op == 3;
+			resultado = x*y;
+			cout<<"A multiplicaão dos numeros é"<<resultado<<endl;
+		break;
+		case 4: 
+		op == 4;
+		resultado = x/y;
+		cout<<"A Divisão dos numeros é"<<resultado<<endl;	
+		break;	
 	}
+	
 
-	}
 return 0;
 }
